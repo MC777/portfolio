@@ -12,13 +12,19 @@
       rel="stylesheet"
     />
   </head>
-  <body class="font-dmsans">
-    <main>
-      <header>
-        <img class="w-10 h-10" src="./images/star.svg" alt="" />
-        <p>Marek</p>
-        <p>Developer</p>
-        <nav>
+  <body class="font-dmsans bg-bg text-white">
+    <main class="px-4">
+      <header class="max-w-wtf mx-auto py-6">
+        <div class="flex items-center gap-4">
+          <img class="w-10 h-10" src="./images/star.svg" alt="" />
+          <div>
+            <p class="text-xl font-bold text-accent">Marek</p>
+            <p class="text-white opacity-40 uppercase text-xs tracking-wider">
+              Developer
+            </p>
+          </div>
+        </div>
+        <nav class="hidden">
           <ul>
             <li><a href="#about">About</a></li>
             <li><a href="#skills">Skills</a></li>
@@ -28,13 +34,25 @@
           </ul>
         </nav>
       </header>
-      <section id="about">
-        <h1>My name is Marek</h1>
-        <p>Short description</p>
-        <a href="#contact">Get in touch</a>
-        <a href="#skills">Get to know me</a>
+      <section class="max-w-wtf mx-auto mb-20" id="about">
+        <img
+          class="w-full mb-5"
+          src="images/foto.png"
+          alt="Picture of person"
+        />
+        <h1 class="text-2xl font-bold mb-4">My name is Marek</h1>
+        <p class="text-gray-400 mb-8">
+          Short description check my
+          <a href="#skills" class="text-white">skills</a>. You could also
+          <a href="#conntact" class="text-white">contact</a> me.
+          <span class="text-accent">span higlight</span>
+        </p>
+        <div class="flex flex-col items-start gap-4">
+          <a class="bg-accent text-bg flex gap-3 font-bold text-xl py-2 px-4 items-center rounded-[0.625rem] border-lightGray border-2" href="#skills"><img src="images/chat.svg" /> Get to know me</a>
+          <a class="text-accent bg-bg flex gap-3 font-bold text-xl py-2 px-4 items-center rounded-[0.625rem]" href="#contact" ><img src="images/user.svg" /> Get in touch</a>
+        </div>
       </section>
-      <section id="skills">
+      <section class="max-w-wtf mx-auto" id="skills">
         <h2>MY SKILLS</h2>
         <p>Description of skills</p>
         <article>
@@ -71,7 +89,7 @@
           </ul>
         </article>
       </section>
-      <section id="projects">
+      <section class="max-w-wtf mx-auto" id="projects">
         <h2>Recent projects</h2>
         <p>Short description of the projects</p>
         <article>
@@ -87,7 +105,7 @@
           <a href="#">Source code</a>
         </article>
       </section>
-      <section>
+      <section class="max-w-wtf mx-auto">
         <h2>After Hours</h2>
         <p>Outside of my work I am ...</p>
         <article>
@@ -106,11 +124,11 @@
           <p>About music ...</p>
         </article>
       </section>
-      <section id="conntact">
+      <section class="max-w-wtf mx-auto" id="contact">
         <h2>Let's work together</h2>
         <p>
-          I am open for new opportunities.<br />If you have one for me we
-          shouldtalk!
+          I am open for new opportunities.<br />If you have one for me we should
+          talk!
         </p>
         <a href="mailto:aaa@s.pl">aaa@s.pl</a>
         <p>or find me on:</p>
