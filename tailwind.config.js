@@ -14,6 +14,12 @@ module.exports = {
       maxWidth: {
         wtf: "82rem",
       },
+      borderRadius: {
+        wtf: "0.625rem",
+      },
+      boxShadow: {
+        innerlight: "inset 0 2px 0 0 rgba(255, 255, 255, 0.15)",
+      },
     },
   },
   plugins: [],
