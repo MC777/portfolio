@@ -45,30 +45,39 @@
           </ul>
         </nav>
       </header>
-      <section class="max-w-wtf mx-auto mb-20" id="about">
+      <section
+        class="max-w-wtf mx-auto mb-20 md:pt-20 md:mb-32 md:flex md:justify-between md:gap-12"
+        id="about"
+      >
         <img
-          class="w-full mb-5"
+          class="w-full md:w-[26rem] mb-5 md:order-2"
           src="images/foto.png"
           alt="Picture of person"
         />
-        <h1 class="text-2xl font-bold mb-4">My name is Marek</h1>
-        <p class="text-gray-400 mb-8">
-          Short description check my
-          <a href="#skills" class="text-white">skills</a>. You could also
-          <a href="#conntact" class="text-white">contact</a> me.
-          <span class="text-accent">span higlight</span>
-        </p>
-        <div class="flex flex-col items-start gap-4">
-          <a
-            class="bg-accent text-bg flex gap-3 font-bold text-xl py-2 px-4 items-center rounded-wtf border-lightGray border-2"
-            href="#skills"
-            ><img src="images/chat.svg" /> Get to know me</a
+        <div class="max-w-3xl">
+          <h1
+            class="text-2xl md:text-2xl lg:text-5xl md:leading-snug font-bold mb-4"
           >
-          <a
-            class="text-accent bg-bg flex gap-3 font-bold text-xl py-2 px-4 items-center rounded-wtf"
-            href="#contact"
-            ><img src="images/user.svg" /> Get in touch</a
-          >
+            My name is Marek
+          </h1>
+          <p class="text-gray-400 mb-8 md:mb-16 md:text-2xl font-medium">
+            Short description check my
+            <a href="#skills" class="text-white">skills</a>. You could also
+            <a href="#conntact" class="text-white">contact</a> me.
+            <span class="text-accent">span higlight</span>
+          </p>
+          <div class="flex flex-col md:flex-row items-start gap-4">
+            <a
+              class="bg-accent text-bg flex gap-3 font-bold text-xl py-2 px-4 md:px-6 md:py-3.5 items-center rounded-wtf md:rounded-wtfxl ring-accent ring-2"
+              href="#skills"
+              ><img src="images/chat.svg" /> Get to know me</a
+            >
+            <a
+              class="text-accent bg-bg flex gap-3 font-bold text-xl py-2 px-4 md:px-6 md:py-3.5 items-center rounded-wtf md:rounded-wtfxl ring-lightGray ring-2"
+              href="#contact"
+              ><img src="images/user.svg" /> Get in touch</a
+            >
+          </div>
         </div>
       </section>
       <section class="max-w-wtf mx-auto mb-32" id="skills">
