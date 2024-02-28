@@ -17,7 +17,11 @@
     <main class="px-4">
       <header class="flex justify-between max-w-wtf mx-auto py-6">
         <div class="flex items-center gap-4">
-          <img class="w-10 h-10" src="./images/star.svg" alt="" />
+          <img
+            class="w-10 h-10 animate-slowSpin"
+            src="./images/star.svg"
+            alt=""
+          />
           <div>
             <p class="text-xl font-bold text-accent">Marek</p>
             <p class="text-white opacity-40 uppercase text-xs tracking-wider">
@@ -37,7 +41,7 @@
             </li>
             <li>
               <a
-                class="inline-block bg-accent text-bg rounded-xl py-3.5 px-8"
+                class="inline-block bg-accent hover:bg-accent-400 hover:ring-accent-400 transition-colors duration-500 text-bg rounded-xl py-3.5 px-8"
                 href="#contact"
                 >Contact</a
               >
@@ -50,7 +54,7 @@
         id="about"
       >
         <img
-          class="w-full md:w-[26rem] mb-5 md:order-2"
+          class="w-full max-w-xs md:max-w-none md:w-[26rem] mb-5 md:order-2"
           src="images/foto.png"
           alt="Picture of person"
         />
@@ -69,12 +73,12 @@
           </p>
           <div class="flex flex-col md:flex-row items-start gap-4 flex-wrap">
             <a
-              class="bg-accent text-bg flex gap-3 font-bold text-xl py-2 px-4 md:px-6 md:py-3.5 items-center rounded-wtf md:rounded-wtfxl ring-accent ring-2"
+              class="bg-accent text-bg flex gap-3 font-bold text-xl py-2 px-4 md:px-6 md:py-3.5 items-center rounded-wtf md:rounded-wtfxl ring-accent ring-2 hover:bg-accent-400 hover:ring-accent-400 transition-colors duration-500"
               href="#skills"
               ><img src="images/chat.svg" /> Get to know me</a
             >
             <a
-              class="text-accent bg-bg flex gap-3 font-bold text-xl py-2 px-4 md:px-6 md:py-3.5 items-center rounded-wtf md:rounded-wtfxl ring-lightGray ring-2"
+              class="text-accent bg-bg flex gap-3 font-bold text-xl py-2 px-4 md:px-6 md:py-3.5 items-center rounded-wtf md:rounded-wtfxl ring-lightGray ring-2 hover:text-accent-400 hover:ring-accent-400 transition-all duration-500"
               href="#contact"
               ><img src="images/user.svg" /> Get in touch</a
             >
@@ -245,7 +249,7 @@
           talk!
         </p>
         <a
-          class="text-bg bg-accent mb-10 md:mb-20 flex gap-3 font-bold text-xl leading-9 py-3.5 px-3.5 md:px-8 items-center rounded-wtfxl flex-wrap justify-center"
+          class="text-bg bg-accent transition-colors hover:bg-accent-400 duration-500 mb-10 md:mb-20 flex gap-3 font-bold text-xl leading-9 py-3.5 px-3.5 md:px-8 items-center rounded-wtfxl flex-wrap justify-center"
           href="mailto:aaa@s.pl"
           ><img src="images/mail.svg" />aaa@s.pl</a
         >
