@@ -45,10 +45,10 @@ fetch(`https://api.github.com/users/${username}/repos?direction=${direction}`)
         </div>
         <div class="flex flex-col flex-wrap md:flex-row gap-4 items-start">
             <a class="relative text-accent  hover:text-white transition-all duration-300 bg-bg flex gap-3 font-bold py-4 px-3 items-center rounded-lg md:rounded-xl md:text-xl border-lightGray hover:border-accent border-2" href="${homepage}" target="_blank" rel="noreferrer nofollow">
-                <img class="w-6 h-6" src="${demoIcon}" alt=""> View demo</a>
+                <img class="w-6 h-6" src="${demoIcon}" width="24" hight="24" alt=""> View demo</a>
             
             <a class="relative text-accent  hover:text-white transition-all duration-300 bg-bg flex gap-3 font-bold py-4 px-3 items-center rounded-lg md:rounded-xl md:text-xl border-lightGray hover:border-accent border-2" href="${html_url}" target="_blank" rel="noreferrer nofollow">
-                <img class="w-6 h-6" src="${githubIcon}" alt="">Source code</a>
+                <img class="w-6 h-6" src="${githubIcon}" width="24" hight="24" alt="">Source code</a>
         </div>
         </div>
         </article>`;
