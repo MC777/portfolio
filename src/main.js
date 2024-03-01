@@ -6,6 +6,8 @@ const projectsContainer = document.querySelector(".project--js");
 const username = "MC777";
 const direction = "desc";
 
+console.log("Hey! 😎😎😎");
+
 fetch(`https://api.github.com/users/${username}/repos?direction=${direction}`)
   .then((response) => response.json())
   .then((response) => {
@@ -26,7 +28,7 @@ fetch(`https://api.github.com/users/${username}/repos?direction=${direction}`)
       const element = `<article
         class="rounded-wtf md:rounded-wtfxl overflow-clip bg-gradient-to-br from-white/10 to-white/5 flex flex-col h-full"
         >
-        <div class="h-11 p-4 gap-1.5 shadow-innerlight ring-1 ring-inset ring-bg rounded-t-wtf md:rounded-wtfxl flex bg-gradient-to-br from-white/10 to-white/5">
+        <div class="h-11 p-4 gap-1.5 shadow-inner-light ring-1 ring-inset ring-bg rounded-t-wtf md:rounded-wtfxl flex bg-gradient-to-br from-white/10 to-white/5">
             <span class="w-3 h-3 bg-bg block rounded-full opacity-50"></span>
             <span class="w-3 h-3 bg-bg block rounded-full opacity-50"></span>
             <span class="w-3 h-3 bg-bg block rounded-full opacity-50"></span>
@@ -44,10 +46,10 @@ fetch(`https://api.github.com/users/${username}/repos?direction=${direction}`)
             </ul>
         </div>
         <div class="flex flex-col flex-wrap md:flex-row gap-4 items-start">
-            <a class="relative text-accent  hover:text-white transition-all duration-300 bg-bg flex gap-3 font-bold py-4 px-3 items-center rounded-lg md:rounded-xl md:text-xl border-lightGray hover:border-accent border-2" href="${homepage}" target="_blank" rel="noreferrer nofollow">
+            <a class="relative text-accent  hover:text-white transition-all duration-300 bg-bg flex gap-3 font-bold py-4 px-3 items-center rounded-lg md:rounded-xl md:text-xl border-gray-800 hover:border-accent border-2" href="${homepage}" target="_blank" rel="noreferrer nofollow">
                 <img class="w-6 h-6" src="${demoIcon}" width="24" hight="24" alt=""> View demo</a>
             
-            <a class="relative text-accent  hover:text-white transition-all duration-300 bg-bg flex gap-3 font-bold py-4 px-3 items-center rounded-lg md:rounded-xl md:text-xl border-lightGray hover:border-accent border-2" href="${html_url}" target="_blank" rel="noreferrer nofollow">
+            <a class="relative text-accent  hover:text-white transition-all duration-300 bg-bg flex gap-3 font-bold py-4 px-3 items-center rounded-lg md:rounded-xl md:text-xl border-gray-800 hover:border-accent border-2" href="${html_url}" target="_blank" rel="noreferrer nofollow">
                 <img class="w-6 h-6" src="${githubIcon}" width="24" hight="24" alt="">Source code</a>
         </div>
         </div>
