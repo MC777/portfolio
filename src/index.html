@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -24,19 +24,19 @@
     />
   </head>
 
-  <body class="font-dmsans bg-bg text-white">
+  <body class="bg-bg font-dmsans text-white">
     <main>
-      <header class="py-3 md:py-6 sticky top-0 bg-bg/50 backdrop-blur-lg">
-        <div class="flex justify-between max-w-wtf mx-auto px-4">
+      <header class="sticky top-0 bg-bg/50 py-3 backdrop-blur-lg md:py-6">
+        <div class="mx-auto flex max-w-wtf justify-between px-4">
           <div class="flex items-center gap-4">
             <img
-              class="w-10 h-10 animate-slowSpin"
+              class="h-10 w-10 animate-slowSpin"
               src="./images/star.svg"
               alt=""
             />
             <div>
               <p class="text-xl font-bold text-accent">Marek</p>
-              <p class="text-white opacity-40 uppercase text-xs tracking-wider">
+              <p class="text-xs uppercase tracking-wider text-white opacity-40">
                 Developer
               </p>
             </div>
@@ -47,7 +47,7 @@
               <li><a href="#skills">Skills</a></li>
               <li><a href="#projects">Projects</a></li>
               <li>
-                <a class="flex gap-2 items-center" download href="#"
+                <a class="flex items-center gap-2" download href="#"
                   ><img
                     src="images/download.svg"
                     alt=""
@@ -58,7 +58,7 @@
               </li>
               <li>
                 <a
-                  class="inline-block bg-accent hover:bg-accent-400 hover:ring-accent-400 transition-colors duration-500 text-bg rounded-xl py-3.5 px-8"
+                  class="inline-block rounded-xl bg-accent px-8 py-3.5 text-bg transition-colors duration-500 hover:bg-accent-400 hover:ring-accent-400"
                   href="#contact"
                   >Contact</a
                 >
@@ -69,7 +69,7 @@
       </header>
       <div class="px-4">
         <section
-          class="max-w-wtf mx-auto mb-20 md:pt-20 md:mb-32 md:flex md:justify-between md:gap-12"
+          class="mx-auto mb-20 max-w-wtf md:mb-32 md:flex md:justify-between md:gap-12 md:pt-20"
           id="about"
         >
           <picture class="md:order-2">
@@ -84,7 +84,7 @@
             <img
               width="416"
               height="459"
-              class="w-full max-w-xs md:max-w-none md:w-[26rem] mb-5 md:order-2"
+              class="mb-5 w-full max-w-xs md:order-2 md:w-[26rem] md:max-w-none"
               src="images/foto.png"
               alt="Picture of person"
             />
@@ -92,26 +92,26 @@
 
           <div class="max-w-3xl">
             <h1
-              class="text-2xl md:text-2xl lg:text-5xl md:leading-snug lg:leading-snug font-bold mb-4"
+              class="mb-4 text-2xl font-bold md:text-2xl md:leading-snug lg:text-5xl lg:leading-snug"
             >
               My name is Marek a&nbsp;keen Star Wars Fan. Lorem, ipsum dolor sit
               amet consectetur adipisicing elit.
             </h1>
-            <p class="text-gray-400 mb-8 md:mb-16 md:text-2xl font-medium">
+            <p class="mb-8 font-medium text-gray-400 md:mb-16 md:text-2xl">
               Short description check my
               <a href="#skills" class="text-white">skills</a>. You could also
               <a href="#conntact" class="text-white">contact</a> me.
               <span class="text-accent">span higlight</span>
             </p>
-            <div class="flex flex-col md:flex-row items-start gap-4 flex-wrap">
+            <div class="flex flex-col flex-wrap items-start gap-4 md:flex-row">
               <a
-                class="bg-accent text-bg flex gap-3 font-bold text-xl py-2 px-4 md:px-6 md:py-3.5 items-center rounded-wtf md:rounded-wtfxl ring-accent ring-2 hover:bg-accent-400 hover:ring-accent-400 transition-colors duration-500"
+                class="flex items-center gap-3 rounded-wtf bg-accent px-4 py-2 text-xl font-bold text-bg ring-2 ring-accent transition-colors duration-500 hover:bg-accent-400 hover:ring-accent-400 md:rounded-wtfxl md:px-6 md:py-3.5"
                 href="#skills"
                 ><img src="images/chat.svg" alt="" width="24" height="24" /> Get
                 to know me</a
               >
               <a
-                class="text-accent bg-bg flex gap-3 font-bold text-xl py-2 px-4 md:px-6 md:py-3.5 items-center rounded-wtf md:rounded-wtfxl ring-gray-800 ring-2 hover:text-accent-400 hover:ring-accent-400 transition-all duration-500"
+                class="flex items-center gap-3 rounded-wtf bg-bg px-4 py-2 text-xl font-bold text-accent ring-2 ring-gray-800 transition-all duration-500 hover:text-accent-400 hover:ring-accent-400 md:rounded-wtfxl md:px-6 md:py-3.5"
                 href="#contact"
                 ><img src="images/user.svg" alt="" width="24" height="24" /> Get
                 in touch</a
@@ -119,32 +119,32 @@
             </div>
           </div>
         </section>
-        <section class="max-w-wtf mx-auto mb-32 md:mb-64" id="skills">
+        <section class="mx-auto mb-32 max-w-wtf md:mb-64" id="skills">
           <h2
-            class="text-gray-400 text-xl tracking-wider font-bold mb-4 md:mb-10"
+            class="mb-4 text-xl font-bold tracking-wider text-gray-400 md:mb-10"
           >
             MY SKILLS
           </h2>
           <p
-            class="text-2xl md:text-4xl md:max-w-3xl font-medium tracking-tight mb-10"
+            class="mb-10 text-2xl font-medium tracking-tight md:max-w-3xl md:text-4xl"
           >
             Description of skills
           </p>
           <div class="grid gap-4 md:grid-cols-3">
             <article
-              class="p-5 md:p-6 lg:p-10 rounded-wtf bg-gradient-to-br from-white/10 to-white/5 shadow-inner-light ring-1 ring-inset ring-bg"
+              class="rounded-wtf bg-gradient-to-br from-white/10 to-white/5 p-5 shadow-inner-light ring-1 ring-inset ring-bg md:p-6 lg:p-10"
             >
               <img
                 src="./images/triangle.svg"
                 alt=""
-                class="w-44 h-44 mb-10 md:mb-20"
+                class="mb-10 h-44 w-44 md:mb-20"
               />
               <h3
-                class="pt-3 md:pt-3.5 border-accent border-t-2 text-2xl font-bold tracking-tight mb-3"
+                class="mb-3 border-t-2 border-accent pt-3 text-2xl font-bold tracking-tight md:pt-3.5"
               >
                 Working knowledge
               </h3>
-              <ul class="text-sm font-medium tracking-tight space-y-2">
+              <ul class="space-y-2 text-sm font-medium tracking-tight">
                 <li>- Semantic HTML5</li>
                 <li>- Flexbox</li>
                 <li>- Markdown</li>
@@ -153,19 +153,19 @@
               </ul>
             </article>
             <article
-              class="p-5 md:p-6 lg:p-10 rounded-wtf bg-gradient-to-br from-white/10 to-white/5 shadow-inner-light ring-1 ring-inset ring-bg"
+              class="rounded-wtf bg-gradient-to-br from-white/10 to-white/5 p-5 shadow-inner-light ring-1 ring-inset ring-bg md:p-6 lg:p-10"
             >
               <img
                 src="./images/circle.svg"
                 alt=""
-                class="w-44 h-44 mb-10 md:mb-20"
+                class="mb-10 h-44 w-44 md:mb-20"
               />
               <h3
-                class="pt-3 md:pt-3.5 border-accent border-t-2 text-2xl font-bold tracking-tight mb-3"
+                class="mb-3 border-t-2 border-accent pt-3 text-2xl font-bold tracking-tight md:pt-3.5"
               >
                 Know something about
               </h3>
-              <ul class="text-sm font-medium tracking-tight space-y-2">
+              <ul class="space-y-2 text-sm font-medium tracking-tight">
                 <li>- Semantic HTML5</li>
                 <li>- Flexbox</li>
                 <li>- Markdown</li>
@@ -174,19 +174,19 @@
               </ul>
             </article>
             <article
-              class="p-5 md:p-6 lg:p-10 rounded-wtf bg-gradient-to-br from-white/10 to-white/5 shadow-inner-light ring-1 ring-inset ring-bg"
+              class="rounded-wtf bg-gradient-to-br from-white/10 to-white/5 p-5 shadow-inner-light ring-1 ring-inset ring-bg md:p-6 lg:p-10"
             >
               <img
                 src="./images/hexagon.svg"
                 alt=""
-                class="w-44 h-44 mb-10 md:mb-20"
+                class="mb-10 h-44 w-44 md:mb-20"
               />
               <h3
-                class="pt-3 md:pt-3.5 border-accent border-t-2 text-2xl font-bold tracking-tight mb-3"
+                class="mb-3 border-t-2 border-accent pt-3 text-2xl font-bold tracking-tight md:pt-3.5"
               >
                 Want to leran
               </h3>
-              <ul class="text-sm font-medium tracking-tight space-y-2">
+              <ul class="space-y-2 text-sm font-medium tracking-tight">
                 <li>- Semantic HTML5</li>
                 <li>- Flexbox</li>
                 <li>- Markdown</li>
@@ -196,30 +196,30 @@
             </article>
           </div>
         </section>
-        <section class="max-w-wtf mx-auto mb-32 md:mb:64" id="projects">
+        <section class="md:mb:64 mx-auto mb-32 max-w-wtf" id="projects">
           <h2
-            class="text-gray-400 text-xl tracking-wider font-bold mb-4 uppercase"
+            class="mb-4 text-xl font-bold uppercase tracking-wider text-gray-400"
           >
             Recent projects
           </h2>
           <p
-            class="text-2xl md:text-4xl md:max-w-3xl font-medium tracking-tight mb-10 md:mb-20"
+            class="mb-10 text-2xl font-medium tracking-tight md:mb-20 md:max-w-3xl md:text-4xl"
           >
             Lorem, ipsum dolor sit amet consectetur adipisicing elit.
             Exercitationem ex ipsum fugit doloremque quaerat culpa. Rem
             assumenda mollitia, deleniti, iure animi ratione, reprehenderit et
             optio saepe voluptatibus temporibus accusantium id!
           </p>
-          <div class="grid gap-4 md:grid-cols-2 project--js"></div>
+          <div class="project--js grid gap-4 md:grid-cols-2"></div>
         </section>
-        <section class="max-w-wtf mx-auto mb-32 md:mb:64">
+        <section class="md:mb:64 mx-auto mb-32 max-w-wtf">
           <h2
-            class="text-gray-400 text-xl tracking-wider font-bold mb-4 uppercase"
+            class="mb-4 text-xl font-bold uppercase tracking-wider text-gray-400"
           >
             After Hours
           </h2>
           <p
-            class="text-2xl md:text-4xl md:max-w-3xl font-medium tracking-tight mb-10 md:mb-20"
+            class="mb-10 text-2xl font-medium tracking-tight md:mb-20 md:max-w-3xl md:text-4xl"
           >
             Lorem, ipsum dolor sit amet consectetur adipisicing elit.
             Exercitationem ex ipsum fugit doloremque quaerat culpa. Rem
@@ -227,7 +227,7 @@
             optio saepe voluptatibus temporibus accusantium id!
           </p>
           <div
-            class="grid gap-16 md:gap-8 lg:gap-4 md:grid-cols-2 lg:grid-cols-4"
+            class="grid gap-16 md:grid-cols-2 md:gap-8 lg:grid-cols-4 lg:gap-4"
           >
             <article>
               <picture>
@@ -257,7 +257,7 @@
                   alt="Picture of person"
                 />
               </picture>
-              <h3 class="text-2xl font-bold tracking-tight mb-1">Music</h3>
+              <h3 class="mb-1 text-2xl font-bold tracking-tight">Music</h3>
               <p class="text-gray-400">
                 About music Lorem, ipsum dolor sit amet consectetur adipisicing
                 elit. Exercitationem ex ipsum fugit doloremque quaerat culpa.
@@ -294,7 +294,7 @@
                   alt="Picture of person"
                 />
               </picture>
-              <h3 class="text-2xl font-bold tracking-tight mb-1">Music</h3>
+              <h3 class="mb-1 text-2xl font-bold tracking-tight">Music</h3>
               <p class="text-gray-400">
                 About music Lorem, ipsum dolor sit amet consectetur adipisicing
                 elit. Exercitationem ex ipsum fugit doloremque quaerat culpa.
@@ -331,7 +331,7 @@
                   alt="Picture of person"
                 />
               </picture>
-              <h3 class="text-2xl font-bold tracking-tight mb-1">Music</h3>
+              <h3 class="mb-1 text-2xl font-bold tracking-tight">Music</h3>
               <p class="text-gray-400">
                 About music Lorem, ipsum dolor sit amet consectetur adipisicing
                 elit. Exercitationem ex ipsum fugit doloremque quaerat culpa.
@@ -368,7 +368,7 @@
                   alt="Picture of person"
                 />
               </picture>
-              <h3 class="text-2xl font-bold tracking-tight mb-1">Music</h3>
+              <h3 class="mb-1 text-2xl font-bold tracking-tight">Music</h3>
               <p class="text-gray-400">
                 About music Lorem, ipsum dolor sit amet consectetur adipisicing
                 elit. Exercitationem ex ipsum fugit doloremque quaerat culpa.
@@ -380,18 +380,18 @@
           </div>
         </section>
         <section
-          class="text-center max-w-wtf mx-auto mb-16 md:mb-32 flex flex-col items-center"
+          class="mx-auto mb-16 flex max-w-wtf flex-col items-center text-center md:mb-32"
           id="contact"
         >
-          <h2 class="text-3xl md:text-4xl font-bold tracking-tight mb-4">
+          <h2 class="mb-4 text-3xl font-bold tracking-tight md:text-4xl">
             Let's work together
           </h2>
-          <p class="text-center text-gray-400 mb-10 text-lg md:text-2xl">
+          <p class="mb-10 text-center text-lg text-gray-400 md:text-2xl">
             I am open for new opportunities.<br />If you have one for me we
             should talk!
           </p>
           <a
-            class="text-bg bg-accent transition-colors hover:bg-accent-400 duration-500 mb-10 md:mb-20 flex gap-3 font-bold text-xl leading-9 py-3.5 px-3.5 md:px-8 items-center rounded-wtfxl flex-wrap justify-center"
+            class="mb-10 flex flex-wrap items-center justify-center gap-3 rounded-wtfxl bg-accent px-3.5 py-3.5 text-xl font-bold leading-9 text-bg transition-colors duration-500 hover:bg-accent-400 md:mb-20 md:px-8"
             href="mailto:aaa@s.pl"
             ><img
               src="images/mail.svg"
@@ -400,14 +400,14 @@
               height="24"
             />aaa@s.pl</a
           >
-          <p class="text-2xl text-gray-400 font-medium mb-6">or find me on:</p>
-          <ul class="flex gap-4 justify-center flex-wrap">
+          <p class="mb-6 text-2xl font-medium text-gray-400">or find me on:</p>
+          <ul class="flex flex-wrap justify-center gap-4">
             <li>
               <a
-                class="w-14 h-14 rounded-full flex items-center justify-center bg-gradient-to-br from-white/10 to-white/5 shadow-inner-light-sm"
+                class="flex h-14 w-14 items-center justify-center rounded-full bg-gradient-to-br from-white/10 to-white/5 shadow-inner-light-sm"
                 href=""
                 ><img
-                  class="w-6 h-6 text-bg"
+                  class="h-6 w-6 text-bg"
                   src="images/github2.svg"
                   alt=""
                   width="24"
@@ -416,10 +416,10 @@
             </li>
             <li>
               <a
-                class="w-14 h-14 rounded-full flex items-center justify-center bg-gradient-to-br from-white/10 to-white/5 shadow-inner-light-sm"
+                class="flex h-14 w-14 items-center justify-center rounded-full bg-gradient-to-br from-white/10 to-white/5 shadow-inner-light-sm"
                 href=""
                 ><img
-                  class="w-6 h-6 text-bg"
+                  class="h-6 w-6 text-bg"
                   src="images/linkedin.svg"
                   alt="linkedin icon"
                   width="24"
@@ -428,10 +428,10 @@
             </li>
             <li>
               <a
-                class="w-14 h-14 rounded-full flex items-center justify-center bg-gradient-to-br from-white/10 to-white/5 shadow-inner-light-sm"
+                class="flex h-14 w-14 items-center justify-center rounded-full bg-gradient-to-br from-white/10 to-white/5 shadow-inner-light-sm"
                 href=""
                 ><img
-                  class="w-6 h-6 text-bg"
+                  class="h-6 w-6 text-bg"
                   src="images/instagram.svg"
                   alt="instagram icon"
                   width="24"
